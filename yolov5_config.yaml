@@ -1,0 +1,10 @@
+# yolov5_config.yaml
+train: /content/drive/My Drive/Colab Notebooks/CV/train/images_converted/  # Updated path to training images
+val: /content/drive/My Drive/Colab Notebooks/CV/val/images_converted/      # Updated path to validation images
+test: /content/drive/My Drive/Colab Notebooks/CV/test/images_converted/    # Updated path to testing images
+
+# Number of classes
+nc: 1  # You have one class, strawberries
+
+# Class names
+names: ['strawberry']  # Class ID 0 corresponds to strawberries
